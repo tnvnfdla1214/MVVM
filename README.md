@@ -15,11 +15,11 @@ MVVM의 ViewModel은 view에 viewmodel의 **데이터를 주입하기 위한 관
 
 그러므로 명확히 MVVM을 이용하기 위해서는 AAC의 ViewModel을 사용해서 MVVM의 ViewModel로서 사용하면 안됩니다.
  
-**승욱 아저씨 : 뷰모델을 뷰가 옵저빙하고 있다 > 상관관계가 있다. 뷰는 xml이지 액티비티나 프레그먼트가 아니다. > 이걸 하려면 데이터 바인딩을 해줘야한다.
+**승욱 아저씨 : 뷰모델을 뷰가 옵저빙하고 있다 > 상관관계가 있다. 뷰는 xml이지 액티비티나 프레그먼트가 아니다. > 이걸 하려면 데이터 바인딩을 해줘야한다.**
 
 <img src="https://user-images.githubusercontent.com/48902047/146144848-7629b689-510f-434c-b67d-7f6227d83c3d.png"></img>
 
-이러한 view와 ViewModel의 상관관계로 진행됩니다. 그러나 View와 ViewModel의 연결을 최소화 해야 하기때문에 이러한 모습으로 바뀌어야 합니다.
+위의 그림은 view와 ViewModel의 상관관계로 진행됩니다. 그러나 View와 ViewModel의 연결을 최소화 해야 하기때문에 아래와 같은 모습으로 바뀌어야 합니다.
 
 <img src="https://user-images.githubusercontent.com/48902047/146144740-dea54991-4c1b-496f-8a7b-2a073b8210dc.png"></img>
 
@@ -30,4 +30,4 @@ MVVM의 ViewModel은 view에 viewmodel의 **데이터를 주입하기 위한 관
 
 <img src="https://user-images.githubusercontent.com/48902047/146145132-fa50a48b-680d-4ddb-97e5-ad03c6e4681f.png"></img>
 
-이러하므로 결론은 **DataBinding**을 사용해야합니다.
+이러하므로 결론은 [**DataBinding**]()을 사용해야합니다.
